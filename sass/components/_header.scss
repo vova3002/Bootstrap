@@ -1,0 +1,9 @@
+.header {
+  background-color: black;
+  border: 1px solid white;
+  &__title {
+    color: #2f4f73;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
