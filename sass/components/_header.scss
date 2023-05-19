@@ -2,8 +2,26 @@
   background-color: black;
   border: 1px solid white;
   &__title {
-    color: #2f4f73;
+    padding-top: 12px;
+    color: #3e80ca;
     margin-top: auto;
     margin-bottom: auto;
   }
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  &__item {
+    flex-wrap: wrap;
+  }
+  &__link {
+    color: #3e80ca;
+  }
+}
+
+.header-media {
+  display: flex;
+  gap: 20px;
 }
